@@ -11,9 +11,9 @@ Repositório desenvolvido para hospedar certificados.
 
 <br>
 
-<!--<p align="center">
-  <img alt="Background preview" src="./assets/layout.png" width="100%">
-</p>-->
+<p align="center">
+  <img alt="Background preview" src="./assets/background.png" width="100%">
+</p>
 
 ## 🚀 Tecnologias
 
