@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin: 0 40px;
+    background-repeat: no-repeat;
+    opacity: 20% 4s;
+    -webkit-animation: fadein 2s;
+    -webkit-animation: fadein 2s; /* Safari, Chrome e Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
+}
+
+a{
+    color: black;
+    
+}
+
+p{
+    font-size: 12px;
+}
+
+header{
+    margin: 20px 10px
+}
+
+#dois-pontos{
+    color: #EA2027;
+}
+
+header h1{
+    margin-top: 20px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr); /* Define 3 colunas com largura igual */
+     /* Espaçamento entre as imagens */
+}
+
+.grid{
+   text-align: center; /* Centralizar o conteúdo dentro das células */
+   max-width: 100%; /* Certifique-se de que as imagens não excedam a largura do contêiner */
+   height: auto; /* Mantenha a proporção original da imagem */
+   border: 2px solid #EA2027;
+   border-radius: 0.5rem;
+   margin: 10px;
+   background-color: white;
+   padding: 5px;
+}
+
+.grid p{
+    margin-top: 5px;
+}
+
+footer{
+    display: flex;
+    margin: 20px 0px 20px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer span{
+    font-size: 11px;
+}
+
+/*animacoes*/
+.grid:hover{
+    color: white;
+    transition: 0.2s;
+    background-color: black;
+    transform: scale(1.05);
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome e Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
